@@ -42,6 +42,12 @@ function botVoice(message) {
     if (message.includes('Hello.')) {
       speech.text = "Hi!!";
     }
+   if (message.includes('hi')) {
+      speech.text = "Hello!";
+    }
+   if (message.includes('hello')) {
+      speech.text = "Hi!";
+    }
 
 
     if (message.includes('I am good.')) {
