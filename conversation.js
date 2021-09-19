@@ -136,7 +136,7 @@ url:"https://discord.com/invite/bWmgn3f"
             },
             {
                 text:"<strong>None of these!!</strong>",
-                 next:9
+                 next:5
  
             },
  ]},
