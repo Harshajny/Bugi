@@ -50,12 +50,15 @@ function botVoice(message) {
     }
 
 
-    if (message.includes('I am good.')) {
+    if (message.includes('I am good')) {
       speech.text = "Nice to hear that. How can I assist you today?";
     }
 
     if (message.includes('weather')) {
       speech.text = "Check this:accuweather.com";
+    }
+  if (message.includes('how are you')) {
+      speech.text = "I am fine, thanks. How are you?";
     }
 
     if (message.includes('London')) {
