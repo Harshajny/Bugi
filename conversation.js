@@ -122,7 +122,7 @@ url:"https://discord.com/invite/bWmgn3f"
             },
             {
                 text:"<strong>More about its developers</strong>",
-                url:"https://harshajny.github.io/WIT-/
+                url:"https://harshajny.github.io/WIT-/"
  
             },
             {
