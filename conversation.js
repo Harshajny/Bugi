@@ -1,4 +1,5 @@
  
+  
 const chat = {
     1: {
         text: 'Hi! Welcome I am Bugi,an website chat bot!',
@@ -6,7 +7,13 @@ const chat = {
             {
                 text: '👋',
                 next: 2
+
+            },
+            {
+                text: "<strong>Save the intro pls!!</strong>",
+                next: 12
             }
+
         ]
     },
     2: {
@@ -32,12 +39,12 @@ const chat = {
         options:[
             {
                  text :"<strong>More about this website</strong>",
-                url:"https://github.com/Harshajny/Bugi.git"
+                url:"https://harshajny.github.io/She-Hacks/"
 
             },
             {
                 text:"<strong>More about its developers</strong>",
-                url:"https://harshajny.github.io/WIT-/"
+                url:"https://harshajny.github.io/She-Hacks/"
  
             },
             {
@@ -60,7 +67,7 @@ url:"https://discord.com/invite/bWmgn3f"
         options: [
             {
                 text: "Go to GitHub",
-                url: "https://github.com/Harshajny/Bugi.git"
+                url: "https://github.com/bugi/bugi"
             },
            
                 {
@@ -97,13 +104,42 @@ url:"https://discord.com/invite/bWmgn3f"
            
                 {
                     text: "You too ",
-                    next:12
+                    next:13
                      
                 }
 
         ]
     },
-    12:
+    12: {
+         
+        text: 'Oh okey,what help shall I do for you ?',
+        options:[
+            {
+                 text :"<strong>More about this website</strong>",
+                url:"https://harshajny.github.io/She-Hacks/"
+
+            },
+            {
+                text:"<strong>More about its developers</strong>",
+                url:"https://harshajny.github.io/She-Hacks/"
+ 
+            },
+            {
+                text:"<strong>How to be part of WIT activites?</strong>",
+url:"https://discord.com/invite/bWmgn3f"
+            },
+            {
+                text:"<strong>I want a coffee</strong>",
+                url:"https://www.zomato.com/bakeries-near-me"
+ 
+            },
+            {
+                text:"<strong>None of these!!</strong>",
+                 next:9
+ 
+            },
+ ]},
+    13:
     {text:'Byebye!!'}
     }
     
