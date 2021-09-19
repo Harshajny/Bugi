@@ -5,7 +5,7 @@ const chat = {
         text: 'Hi! Welcome I am Bugi,an website chat bot!',
         options: [
           {
-                text: "<strong>Save the intro pls!!</strong>",
+                text: "<strong>Save the intro for another day pls!!</strong>",
                 next: 9
             },
             {
