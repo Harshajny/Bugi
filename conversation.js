@@ -60,7 +60,7 @@ url:"https://discord.com/invite/bWmgn3f"
         options: [
             {
                 text: "Go to GitHub",
-                url: "https://github.com/bugi/bugi"
+                url: "https://github.com/Harshajny/Bugi.git"
             },
            
                 {
