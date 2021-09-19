@@ -40,12 +40,12 @@ const chat = {
         options:[
             {
                  text :"<strong>More about this website</strong>",
-                url:"https://harshajny.github.io/She-Hacks/"
+                url:"https://harshajny.github.io/WIT-/"
 
             },
             {
                 text:"<strong>More about its developers</strong>",
-                url:"https://harshajny.github.io/She-Hacks/"
+                url:"https://harshajny.github.io/WIT-/"
  
             },
             {
