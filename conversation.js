@@ -17,6 +17,35 @@ const chat = {
 
         ]
     },
+     9: {
+         
+        text: 'Oh okey,what help shall I do for you ?',
+        options:[
+            {
+                 text :"<strong>More about this website</strong>",
+                url:"https://harshajny.github.io/WIT-/"
+
+            },
+            {
+                text:"<strong>More about its developers</strong>",
+                url:"https://harshajny.github.io/WIT-/"
+ 
+            },
+            {
+                text:"<strong>How to be part of WIT activites?</strong>",
+url:"https://discord.com/invite/bWmgn3f"
+            },
+            {
+                text:"<strong>I want a coffee</strong>",
+                url:"https://www.zomato.com/bakeries-near-me"
+ 
+            },
+            {
+                text:"<strong>None of these!!</strong>",
+                 next:5
+ 
+            },
+ ]},
     2: {
         text: 'Bugi is a <em>really simple</em>, choice-driven chatbot framework made in <del>less than</del> just over 100 lines of vanilla JavaScript',
         next: 3
@@ -111,35 +140,7 @@ url:"https://discord.com/invite/bWmgn3f"
 
         ]
     },
-    9: {
-         
-        text: 'Oh okey,what help shall I do for you ?',
-        options:[
-            {
-                 text :"<strong>More about this website</strong>",
-                url:"https://harshajny.github.io/WIT-/"
 
-            },
-            {
-                text:"<strong>More about its developers</strong>",
-                url:"https://harshajny.github.io/WIT-/"
- 
-            },
-            {
-                text:"<strong>How to be part of WIT activites?</strong>",
-url:"https://discord.com/invite/bWmgn3f"
-            },
-            {
-                text:"<strong>I want a coffee</strong>",
-                url:"https://www.zomato.com/bakeries-near-me"
- 
-            },
-            {
-                text:"<strong>None of these!!</strong>",
-                 next:5
- 
-            },
- ]},
     8:
     {text:'Byebye!!'}
     }
