@@ -11,7 +11,7 @@ const chat = {
             },
             {
                 text: "<strong>Save the intro pls!!</strong>",
-                next: 12
+                next: 9
             }
 
         ]
@@ -29,7 +29,7 @@ const chat = {
             },
             {
                 text: "<strong>Nope</strong>, this is news.",
-                next: 5
+                next: 4
             }
         ]
     },
@@ -62,7 +62,7 @@ url:"https://discord.com/invite/bWmgn3f"
  
             },
  ]},
- 9: {
+ 5: {
         text: 'Check more about me in github',
         options: [
             {
@@ -72,45 +72,45 @@ url:"https://discord.com/invite/bWmgn3f"
            
                 {
                     text: "No thanks",
-                    next:10
+                    next:6
                 }
 
         ]
     },
-    10:{
+    6:{
         text: 'Did you like me?',
         options: [
             {
                 text: "Yes! u r amazing",
-                next:11
+                next:7
             },
            
                 {
                     text: "Yes! But there is more to be added to u ",
-                    next:11
+                    next:7
                 }
 
         ]
     },
-    11:
+    7:
     {
         text:'Thank You, Have a Nice Day',
         options: [
             {
                 text: "yes!!!",
-                next:12
+                next:8
                  
             },
            
                 {
                     text: "You too ",
-                    next:13
+                    next:8
                      
                 }
 
         ]
     },
-    12: {
+    9: {
          
         text: 'Oh okey,what help shall I do for you ?',
         options:[
@@ -139,7 +139,7 @@ url:"https://discord.com/invite/bWmgn3f"
  
             },
  ]},
-    13:
+    8:
     {text:'Byebye!!'}
     }
     
