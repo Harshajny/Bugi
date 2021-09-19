@@ -4,15 +4,16 @@ const chat = {
     1: {
         text: 'Hi! Welcome I am Bugi,an website chat bot!',
         options: [
+          {
+                text: "<strong>Save the intro pls!!</strong>",
+                next: 9
+            },
             {
                 text: '👋',
                 next: 2
 
-            },
-            {
-                text: "<strong>Save the intro pls!!</strong>",
-                next: 9
             }
+           
 
         ]
     },
