@@ -37,7 +37,7 @@ const chat = {
             },
             {
                 text:"<strong>More about its developers</strong>",
-                url:"https://harshajny.github.io/She-Hacks/"
+                url:"https://harshajny.github.io/WIT-/"
  
             },
             {
